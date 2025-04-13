@@ -10,10 +10,10 @@ const Navbar = () => {
             <h2 className="mx-2 text-4xl">Chief.</h2>
         </div>
         <div className="m-8 flex items-enter justify-center gap-4">
-            <FaLinkedin className="w-12 h-6"/>
-            <FaGithub className="w-12 h-6"/>
-            <FaInstagram className="w-12 h-6"/>
-            <FaSquareTwitter className="w-12 h-6"/>
+            <FaLinkedin className="lg:w-12 lg:h-6"/>
+            <FaGithub className="lg:w-12 lg:h-6"/>
+            <FaInstagram className="lg:w-12 lg:h-6"/>
+            <FaSquareTwitter className="lg:w-12 lg:h-6"/>
         </div>
     </nav>
   )
