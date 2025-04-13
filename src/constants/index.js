@@ -31,14 +31,14 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Green Guard",
     description: `Automated customer onboarding processes, reducing contract generation and invoicing time by 95%. Improved system reliability by implementing automated tests with Jest and Playwright. Optimized backend performance and developer efficiency using Prisma ORM and Supabase.`,
-    technologies: ["Jest", "Playwright", "Prisma", "Supabase"],
+    technologies: ["Jest", "Prisma", "Supabase"],
   },
   {
     year: "July 2020 - Nov 2022",
     role: "Software Engineer",
     company: "Zapp",
     description: `Reduced runtime errors by 70% through TypeScript migration. Built a real-time notification service via WhatsApp, SMS, and Email, lowering support tickets significantly. Transitioned backend from Express.js to FastAPI and MongoDB to enhance scalability and API performance.`,
-    technologies: ["TypeScript", "Express.js", "FastAPI", "MongoDB", "Sentry"],
+    technologies: ["TypeScript", "FastAPI", "Sentry"],
   },
 ];
 
@@ -51,28 +51,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["CSS", "React", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["CSS", "Angular", "Firebase"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["CSS", "React", "Bootstrap"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Vue.js", "Express", "MySQL"],
   },
 ];
 
