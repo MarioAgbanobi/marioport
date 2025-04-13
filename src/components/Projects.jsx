@@ -1,5 +1,7 @@
+import { LazyLoadImage } from "react-lazy-load-image-component"
 import { PROJECTS } from "../constants"
 import { motion } from "motion/react"
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Projects = () => {
   return (
@@ -17,11 +19,13 @@ const Projects = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                     className="w-full lg:w-1/4">
-                    <img 
+                    <LazyLoadImage 
                     src={project.image} 
                     alt={project.title} 
                     width={150}
                     height={150}
+                    loading="lazy"
+                    effect="blur"
                     className="mb-b rounded"
                     />
                     </motion.div>

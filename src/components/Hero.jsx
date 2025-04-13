@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/kevinRushProfile.png"
 import { motion } from "motion/react"
+import { LazyLoadImage } from "react-lazy-load-image-component"
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const container = (delay) => ({
   hidden: {x: -100, opacity: 0},
@@ -38,13 +40,16 @@ const Hero = () => {
               </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
-              <div className="flex justify-center">
-                <motion.img 
+              <motion.div className="flex justify-center">
+                <LazyLoadImage 
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2 }}
-                src={profilePic} alt="Mario Agbanobi" />
-              </div>
+                src={profilePic} alt="Mario Agbanobi" 
+                loading="lazy"
+                effect="blur"
+                />
+              </motion.div>
             </div>
         </div>
     </div>

@@ -2,6 +2,8 @@ import React from "react";
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const About = () => {
   return (
@@ -19,9 +21,9 @@ const About = () => {
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5 }}
         className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex items-center justify-center">
-            <img src={aboutImg} alt="about" className="rounded-2xl" />
-          </div>
+          <motion.div className="flex items-center justify-center">
+            <LazyLoadImage effect="blur" loading="lazy" src={aboutImg} alt="about" className="rounded-2xl" />
+          </motion.div>
         </motion.div>
 
         <motion.div 
