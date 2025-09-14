@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/mario.png"
 import { motion } from "motion/react"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -47,7 +47,9 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.2 }}
                 src={profilePic} alt="Mario Agbanobi" 
                 loading="lazy"
+                width={340}
                 effect="blur"
+                className="rounded-2xl"
                 />
               </motion.div>
             </div>

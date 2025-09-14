@@ -1,5 +1,4 @@
-import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -22,7 +21,7 @@ const About = () => {
         transition={{ duration: 0.5 }}
         className="w-full lg:w-1/2 lg:p-8">
           <motion.div className="flex items-center justify-center">
-            <LazyLoadImage effect="blur" loading="lazy" src={aboutImg} alt="about" className="rounded-2xl" />
+            <LazyLoadImage effect="blur" loading="lazy" src={aboutImg} width={300} alt="about" className="rounded-2xl" />
           </motion.div>
         </motion.div>
 

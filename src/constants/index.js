@@ -1,12 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
 const currentYear = new Date().getFullYear();
-const yearsOfExperience = currentYear - 2021;
+const yearsOfExperience = currentYear - 2022;
 
-export const HERO_CONTENT = `Specialize in automation, testing and performance optimization across platforms.`;
+export const HERO_CONTENT = `Specialize in AI-automation, testing and performance optimization across platforms.`;
 
 
 export const ABOUT_TEXT = `
@@ -27,54 +26,63 @@ I have over ${yearsOfExperience}+ years of professional experience building full
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2023 - Present",
+    year: "Jan 2024 - Nov 2024",
     role: "Software Engineer",
-    company: "Green Guard",
-    description: `Automated customer onboarding processes, reducing contract generation and invoicing time by 95%. Improved system reliability by implementing automated tests with Jest and Playwright. Optimized backend performance and developer efficiency using Prisma ORM and Supabase.`,
-    technologies: ["Jest", "Prisma", "Supabase"],
+    company: "NovaTech Solution",
+    description: `Spearheaded the development of a scalable e-commerce platform using Nextjs and Node.js, resulting in a 40% increase in sales, Designed and implemented a real-time inventory management system, reducing stockouts by 30%, Collaborated with cross-functional teams to integrate payment gateways, improving transaction success rates by 25%.`,
+    technologies: ["Nextjs", "Nodejs"],
   },
   {
-    year: "July 2020 - Nov 2022",
-    role: "Software Engineer",
-    company: "Zapp",
-    description: `Reduced runtime errors by 70% through TypeScript migration. Built a real-time notification service via WhatsApp, SMS, and Email, lowering support tickets significantly. Transitioned backend from Express.js to FastAPI and MongoDB to enhance scalability and API performance.`,
-    technologies: ["TypeScript", "FastAPI", "Sentry"],
+    year: "Oct 2023 - Dec 2023",
+    role: "Frontend Developer ",
+    company: "Dormot",
+    description: `Developed and deployed responsive login and registration interfaces using Nextjs and Chakra UI, improving agent onboarding speed by 40%, Collaborated daily with developers and product teams using Jira for stand-ups and Git/GitHub for code reviews, ensuring 95% sprint goal completion, Implemented a scalable dashboard from Figma designs to manage real estate agents across Nigeria and the UK, increasing operational visibility by 60%.`,
+    technologies: ["Nextjs", "Chakra UI"],
+  },
+  {
+    year: "April 2023 - Sept 2023",
+    role: "Web Developer",
+    company: "SkysenxHub",
+    description: `Developed responsive front-end interfaces using HTML, CSS, JavaScript, and Bootstrap as training
+    samples for student learning sessions, Collaborated with team members using Figma design links to implement UI/UX patterns for a fintech application and participated in code reviews and Built a registration and learning management system using PHP (PDO) with MVC architecture and MySQL database to streamline bootcamp enrollment and reduce overcrowding during tech training programs`,
+    technologies: ["JavaScript", "PHP (PDO)", "MySQL"],
   },
 ];
 
 
 
 
+// Updated PROJECTS array with links
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "OG store",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["CSS", "React", "MongoDB"],
+      "Developed a full-stack e-commerce platform using Next.js with Sanity CMS for product management and Stripe for secure payments. Implemented product listing, dynamic product pages, cart functionality, and checkout with real-time order validation. Designed a responsive UI for smooth shopping experiences across devices.",
+    technologies: ["Nextjs", "Sanity", "Stripe"],
+    liveUrl: "https://ecomm-sanity-stripe-theta.vercel.app/",
+    githubUrl: "https://github.com/MarioAgbanobi/EcommerceSanityStripe-Next-App",
   },
   {
-    title: "Task Management App",
+    title: "Krea AI",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["CSS", "Angular", "Firebase"],
+      "Built a modern landing page for a generative AI image platform using Next.js. Highlighted AI features such as real-time image generation, prompt-to-image workflows, and model showcase. Integrated smooth animations, responsive layouts, and optimized SEO for better visibility. Delivered a sleek, engaging design to showcase the AI tool's capabilities.",
+    technologies: ["Nextjs", "Tailwind"],
+    liveUrl: "https://krea-nextjs-ai.vercel.app/",
+    githubUrl: "https://github.com/MarioAgbanobi/Krea-Nextjs-AI-Clone",
   },
   {
-    title: "Portfolio Website",
+    title: "Nike Shoe Sales",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["Vue.js", "Express", "MySQL"],
+      "Designed and developed a marketing landing page for Nike shoe sales using Next.js. Focused on high-quality visuals, product highlights, and call-to-action buttons to drive conversions. Implemented responsive design, fast load times, and smooth transitions to ensure an immersive shopping experience.",
+    technologies: ["Nextjs", "Tailwind"],
+    liveUrl: "https://nike-vite.vercel.app/",
+    githubUrl: "https://github.com/MarioAgbanobi/Nike-vite",
   },
 ];
+
 
 export const CONTACT = {
   address1: "Lagos, Nigeria",
