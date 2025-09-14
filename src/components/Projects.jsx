@@ -11,7 +11,7 @@ const Projects = () => {
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className='my-20 text-center text-4xl'
+        className='my-20 text-center lg:text-start text-4xl'
       >
         Personal Projects
       </motion.h2>

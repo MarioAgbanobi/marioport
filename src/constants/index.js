@@ -5,24 +5,21 @@ import project3 from "../assets/projects/project-3.jpg";
 const currentYear = new Date().getFullYear();
 const yearsOfExperience = currentYear - 2022;
 
-export const HERO_CONTENT = `Specialize in AI-automation, testing and performance optimization across platforms.`;
-
+export const HERO_CONTENT = `Specialize in AI automation, testing and performance optimization across platforms.`;
 
 export const ABOUT_TEXT = `
 My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
 
 <br /><br />
-
-I have over ${yearsOfExperience}+ years of professional experience building full stack applications. Outside of coding, I enjoy staying active, exploring new technologies, <a href="https://www.youtube.com/@marioagbanobi" 
-   target="_blank" 
-   rel="noopener noreferrer" 
-   class="underline decoration-red-600 font-semibold leading-6 decoration-4">
+As a Software Engineer with ${yearsOfExperience}+ years of experience, I specialize in building scalable web, mobile, and desktop applications. My expertise spans SaaS, AI, Blockchain, and VSCode extensions development (Author: <a href="https://marketplace.visualstudio.com/items?itemName=MarioAgbanobi.express-kit" 
+target="_blank" 
+rel="noopener noreferrer" 
+class="underline decoration-blue-600 font-semibold leading-6 decoration-4"> Express Kit </a>). Outside of coding, I enjoy reading business and finance books, table tennis, music lover, exploring new technologies, <a href="https://www.youtube.com/@marioagbanobi" 
+target="_blank" 
+rel="noopener noreferrer" 
+class="underline decoration-red-600 font-semibold leading-6 decoration-4">
    YouTuber
 </a> and contributing to open-source projects.`;
-
-
-
-
 
 export const EXPERIENCES = [
   {
@@ -49,9 +46,6 @@ export const EXPERIENCES = [
   },
 ];
 
-
-
-
 // Updated PROJECTS array with links
 export const PROJECTS = [
   {
@@ -61,7 +55,8 @@ export const PROJECTS = [
       "Developed a full-stack e-commerce platform using Next.js with Sanity CMS for product management and Stripe for secure payments. Implemented product listing, dynamic product pages, cart functionality, and checkout with real-time order validation. Designed a responsive UI for smooth shopping experiences across devices.",
     technologies: ["Nextjs", "Sanity", "Stripe"],
     liveUrl: "https://ecomm-sanity-stripe-theta.vercel.app/",
-    githubUrl: "https://github.com/MarioAgbanobi/EcommerceSanityStripe-Next-App",
+    githubUrl:
+      "https://github.com/MarioAgbanobi/EcommerceSanityStripe-Next-App",
   },
   {
     title: "Krea AI",
@@ -88,5 +83,6 @@ export const CONTACT = {
   address1: "Lagos, Nigeria",
   address2: "Delta, Nigeria",
   phoneNo: "+234 81 4029 2761",
+  whatsappUrl: "https://wa.me/2348140292761",
   email: "marioagbanobi@gmail.com",
 };
