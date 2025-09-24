@@ -1,8 +1,8 @@
-import aboutImg from "../assets/about.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+const aboutImg = "/about.png";
 
 const About = () => {
   return (

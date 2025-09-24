@@ -1,8 +1,8 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/mario.png"
 import { motion } from "motion/react"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css";
+const profilePic = "/mario.png";
 
 const container = (delay) => ({
   hidden: {x: -100, opacity: 0},
