@@ -8,7 +8,7 @@ const yearsOfExperience = currentYear - 2022;
 export const HERO_CONTENT = `Specialize in AI automation, testing and performance optimization across platforms.`;
 
 export const ABOUT_TEXT = `
-My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
+My journey in software engineering began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
 
 <br /><br />
 As a Software Engineer with ${yearsOfExperience}+ years of experience, I specialize in building scalable web, mobile, and desktop applications. My expertise spans SaaS, AI, Blockchain, and VSCode extensions development (Author: <a href="https://marketplace.visualstudio.com/items?itemName=MarioAgbanobi.express-kit" 
