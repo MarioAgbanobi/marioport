@@ -1,0 +1,17 @@
+{
+  "name": "Mario Agbanobi - Software Engineer Portfolio",
+  "short_name": "Mario Portfolio", 
+  "description": "Professional portfolio of Mario Agbanobi, software engineer and full stack developer",
+  "icons": [
+    {
+      "src": "/mario.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
